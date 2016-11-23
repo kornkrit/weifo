@@ -1,0 +1,67 @@
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+
+/*
+ * Custom styles
+ */
+
+.navbar-inverse{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+.navbar-inverse.navbar-fixed-top{
+    margin: 0px;
+}
+
+.navbar.navbar-fixed-top {
+    background-color: #222;
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand {
+    font-size: 18px;
+}
+
+.navbar-container.navbar-fixed-top {
+    padding: 0;
+
+}
+.navbar-fixed-top{
+
+    opacity: 1;
+}
+
+.navbar-fixed-top,.navbar-inverse
+{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+
+
+
+
+
+
+
+/*.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container,
+.navbar-inverse{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+*/
