@@ -21,10 +21,11 @@ $(document).ready(function(){
 
         add : function() {
             if(this.flagAdd) {
+                this.flagAdd = false;
                 for(var i=0; i < this.elements.length; i++) {
                     document.getElementById(this.elements[i]).className += " navbar-fixed-top";
                 }
-                this.flagAdd = false;
+
             }
         },
 
@@ -44,27 +45,67 @@ $(document).ready(function(){
      */
     myNavBar.init(  [
         "header-main",
-        "header-container"
+        "header-container",
+        "top-bar"
     ]);
+
+
+    var fistBackgroud = {
+
+        flagAdd: true,
+
+        elements: [],
+
+        init: function (elements) {
+            this.elements = elements;
+        },
+
+        add : function() {
+            if(this.flagAdd) {
+                this.flagAdd = false;
+                for(var i=0; i < this.elements.length; i++) {
+                    document.getElementById(this.elements[i]).className += " first-section";
+                }
+
+            }
+        },
+
+        remove: function() {
+            for(var i=0; i < this.elements.length; i++) {
+                document.getElementById(this.elements[i]).className =
+                    document.getElementById(this.elements[i]).className.replace( /(?:^|\s)first-section(?!\S)/g , '' );
+            }
+            this.flagAdd = true;
+        }
+
+    };
+
+    /**
+     * Init the object. Pass the object the array of elements
+     * that we want to change when the scroll goes down
+     */
+    fistBackgroud.init(  [
+        "first"
+    ]);
+
 
     /**
      * Function that manage the direction
      * of the scroll
      */
     function offSetManager(){
-
-
-        var offsets = $('#header-main').offset();
-        var top = offsets.top;
-
-        var yOffset = top;
+        var p = $('#header-container');
+        var position = p.offset();
+        var yOffset = position.top;
         var currYOffSet = window.pageYOffset;
 
         if(yOffset < currYOffSet) {
             myNavBar.add();
+            fistBackgroud.add();
         }
         else if(currYOffSet == 0){
             myNavBar.remove();
+            fistBackgroud.remove();
         }
 
     }
@@ -81,4 +122,41 @@ $(document).ready(function(){
      * could be load with scroll down set.
      */
     offSetManager();
+
+    //$('#first-section').css("background-image", "url(./img/header.jpg)");
+
+   setInterval(function(){
+        $('#first-section').animate(4000, function(){
+            $(this).css("background-image", "url(./img/header.jpg)");
+        });
+       $('#first-section').animate(4000, function(){
+           $(this).css("background-image", "url(./img/portfolio/fullsize/1.jpg)");
+       });
+       $('#first-section').animate(4000, function(){
+           $(this).css("background-image", "url(./img/portfolio/fullsize/2.jpg)");
+       });
+
+    } ,4000);
+
+
+    // Slider of product
+
+    $('#myCarousel').carousel({
+        interval: 10000
+    })
+    $('.fdi-Carousel .item').each(function () {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+
+        if (next.next().length > 0) {
+            next.next().children(':first-child').clone().appendTo($(this));
+        }
+        else {
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+        }
+    });
+
 });

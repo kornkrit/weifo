@@ -5,25 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Corlate</title>
+    <title>Home</title>
 
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <!--[endif]-->
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -31,14 +25,13 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
-
     <script src="js/custom.js"></script>
 </head>
 <body>
 
 
 <header id="header">
-    <div class="top-bar">
+    <div class="top-bar" id="top-bar">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-xs-4">
@@ -64,61 +57,104 @@
             </div>
         </div><!--/.container-->
     </div><!--/.top-bar-->
-
-
-
-
-
-    <div id="header-main" class="container">
-        <nav id="header-container" class="navbar navbar-inverse" role="navigation">
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a id="brand" class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-            </div>
-
-
-            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        </div>
-
-
-
 </header><!--/header-->
 
-
-
-<div class="container">
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Who am I ?</h2>
-                    <hr class="light">
-                    <p class="text-faded">
-                        I'm Gear, a <span id="age"></span> year old. I graduated with a bachelor's degree in ICT from Mahidol university.
-                        I'm a Web Developer who loves to build the website, and I like to dealing with a huge data.
-                    </p>
-
-                    <a href="#resume" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                    <a href="Resume.pdf" target="_blank" class="page-scroll btn btn-default btn-xl sr-button">Download Resume</a>
+<section class="bg-primary" id="first-section">
+    <div class="container">
+        <div id="header-main" class="container">
+            <nav id="header-container" class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="brand" class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
                 </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row" id="first">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Who am I ?</h2>
+                <hr class="light">
+                <p class="text-faded">
+                    I'm Gear, a <span id="age"></span> year old. I graduated with a bachelor's degree in ICT from Mahidol university.
+                    I'm a Web Developer who loves to build the website, and I like to dealing with a huge data.
+                </p>
+
+                <a href="#resume" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                <a href="Resume.pdf" target="_blank" class="page-scroll btn btn-default btn-xl sr-button">Download Resume</a>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             </div>
         </div>
-    </section>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</section>
+
+
+<section class="product">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="well">
+                    <div id="myCarousel" class="carousel fdi-Carousel slide">
+                        <!-- Carousel items -->
+                        <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+                            <div class="carousel-inner onebyone-carosel">
+                                <div class="item active">
+                                    <div class="col-md-4">
+                                        <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                        <div class="text-center">1</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                        <div class="text-center">2</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                        <div class="text-center">3</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                        <div class="text-center">4</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                        <div class="text-center">5</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-md-4">
+                                        <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
+                                        <div class="text-center">6</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
+                            <a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
+                        </div>
+                        <!--/carousel-inner-->
+                    </div><!--/myCarousel-->
+                </div><!--/well-->
+            </div>
+        </div>
+    </div>
+</section>
+
 </body>
-</html>
