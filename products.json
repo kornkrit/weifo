@@ -1,0 +1,15 @@
+{
+  "products" : [
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"},
+    {"img":"PATH", "title": "TITLE", "subtitle":"SUBTITLE"}
+  ]
+}
