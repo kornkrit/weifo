@@ -1,7 +1,93 @@
 /**
  * Created by kornkritsupayanant on 11/23/2016 AD.
  */
+$(window).load(function() {
+    var i =0;
+    var images = ['./img/header.jpg','./img/portfolio/fullsize/1.jpg','./img/portfolio/fullsize/2.jpg'];
+    var image = $('#first-section');
+    //Initial Background image setup
+    image.css('background-image', 'url(./img/header.jpg)');
+    //Change image at regular intervals
+    setInterval(function(){
+            image.css('background-image', 'url(' + images [i++] +')');
+            image.css('transition','background 1s linear');
+            image.fadeIn(1000);
+
+        if(i == images.length)
+            i = 0;
+    }, 4000);
+
+});
+
 $(document).ready(function(){
+    // Call Product Element
+    $.getJSON('products.json', function(datas) {
+        var sliderObj = [];
+        var productObj = [];
+        var productItemTmp = "";
+        if(datas.products.length > 0){
+            for(var i = 0 ; i < datas.products.length; i++){
+                var data = datas.products[i];
+                var imagePath  = datas.products[i].img;
+                var title = datas.products[i].title;
+                var subtitle = datas.products[i].subtitle;
+                //var detail = datas.products[i].detail;
+                var indimension = datas.products[i].inDimension;
+                var outdimension = datas.products[i].outDimension;
+                var volumes = datas.products[i].volume;
+                var numFloors = datas.products[i].numFloor;
+
+                sliderObj.push("<div> <img class='product-item' src= \"" +imagePath+ "\"><span class='text-center product-title'><h3>"+ title +"</h3></span></div>");
+                productItemTmp = "";
+                productItemTmp = productItemTmp + "<div class='item  col-xs-4 col-lg-4' onclick = 'gg(" + JSON.stringify(data) + ");' ><div class='thumbnail'><img class='group list-group-image' src= '"+imagePath+"'>";
+                productItemTmp = productItemTmp + "<div class='caption'><h4 class='group inner list-group-item-heading'> รุ่น "+title+"</h4><p class='group inner list-group-item-text'>ภายใน :  "+ indimension +" <br> ภายนอก : "+ outdimension +" <br> ความจุ "+ volumes +" ลิตร จำนวนชั้น "+ numFloors +" ชั้น " + "</p>";
+                productItemTmp = productItemTmp + "<div class='row'><div class='col-xs-12 col-md-6'>";
+                productItemTmp = productItemTmp + " </div></div></div></div></div>";
+                productObj.push(productItemTmp);
+            }
+
+
+            $('#productsSlider').append(sliderObj);
+            $('#products').append(productObj);
+
+
+
+            // Slider of products control
+            $('.center').slick({
+                centerMode: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                swipe:true,
+                speed: 500,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }]
+            });
+
+
+        }
+    });
+
+
+
+
 
     /**
      * This object controls the nav bar. Implement the add and remove
@@ -123,40 +209,10 @@ $(document).ready(function(){
      */
     offSetManager();
 
-    //$('#first-section').css("background-image", "url(./img/header.jpg)");
-
-   setInterval(function(){
-        $('#first-section').animate(4000, function(){
-            $(this).css("background-image", "url(./img/header.jpg)");
-        });
-       $('#first-section').animate(4000, function(){
-           $(this).css("background-image", "url(./img/portfolio/fullsize/1.jpg)");
-       });
-       $('#first-section').animate(4000, function(){
-           $(this).css("background-image", "url(./img/portfolio/fullsize/2.jpg)");
-       });
-
-    } ,4000);
+    // Product List and Grid
+        $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+        $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
 
 
-    // Slider of product
-
-    $('#myCarousel').carousel({
-        interval: 10000
-    })
-    $('.fdi-Carousel .item').each(function () {
-        var next = $(this).next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
-
-        if (next.next().length > 0) {
-            next.next().children(':first-child').clone().appendTo($(this));
-        }
-        else {
-            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-        }
-    });
 
 });

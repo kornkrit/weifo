@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home</title>
+    <title>Product</title>
 
     <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
@@ -20,6 +20,19 @@
     <script src="js/wow.min.js"></script>
     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+
+        function gg(obj){
+
+            $("#productTitle").html(obj.title);
+            $("#productImage").html("<img src= '" + obj.img + "' alt= '" + obj.title + "' class='img-thumbnail'>");
+            $("#productInDimension").html(obj.inDimension);
+            $("#productOutDimension").html(obj.outDimension);
+            $("#productVolume").html(obj.volume);
+            $("#productNoFloor").html(obj.numFloor);
+            $('#myModal').modal('show');
+        }
+    </script>
 
     <!-- core CSS -->
 
@@ -27,12 +40,10 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <link href="css/custom.css" rel="stylesheet">
-
-
+    <link href="css/Footer-with-map.css" rel="stylesheet">
 
 </head>
 <body>
@@ -43,7 +54,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-xs-4">
-                    <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
+                    <div class="top-number"><p><i class="fa fa-phone-square"></i>   +666 249 44693, +669 236 24299</p></div>
                 </div>
                 <div class="col-sm-6 col-xs-8">
                     <div class="social">
@@ -82,8 +93,8 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">Product</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="product.html">Product</a></li>
                         <li><a href="contact-us.html">Contact</a></li>
                     </ul>
                 </div>
@@ -91,18 +102,7 @@
         </div>
 
         <div class="row" id="first">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Who am I ?</h2>
-                <hr class="light">
-                <p class="text-faded">
-                    I'm Gear, a <span id="age"></span> year old. I graduated with a bachelor's degree in ICT from Mahidol university.
-                    I'm a Web Developer who loves to build the website, and I like to dealing with a huge data.
-                </p>
-
-                <a href="#resume" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                <a href="Resume.pdf" target="_blank" class="page-scroll btn btn-default btn-xl sr-button">Download Resume</a>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
+            <br><br>
         </div>
     </div>
 </section>
@@ -110,13 +110,135 @@
 
 <section class="product" id="product">
     <div class="container">
-        <span class="text-center"><h3> List of Products</h3></span>
-    </div>
-    <div class="container">
-            <div class="slider center" id="productsSlider">
-
+        <div class="well well-sm">
+            <strong>Category Title</strong>
+            <div class="btn-group">
+                <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+            </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+                    class="glyphicon glyphicon-th"></span>Grid</a>
             </div>
+        </div>
+        <div id="products" class="row list-group">
+
+        </div>
     </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="text-danger fa fa-times"></i></button>
+                    <h3 class="modal-title" id="myModalLabel"><i class="text-muted fa fa-shopping-cart"></i> <span id = "productTitle"></span></h3>
+                </div>
+                <div class="modal-body row">
+                    <table class="pull-left col-md-8">
+                        <tbody>
+                        <tr>
+                            <td class="h4 col-md-8" valign="bottom" colspan = "2"><strong>ขนาด</strong></td>
+                        </tr>
+                        <tr>
+                            <td class ="h5 col-md-1"><strong>ภายใน : </strong></td>
+                            <td class ="h5 col-md-7"><span id = "productInDimension"></span></td>
+                        </tr>
+                        <tr>
+                            <td class ="h5 col-md-1"><strong>ภายนอก : </strong></td>
+                            <td class ="h5 col-md-7"><span id = "productOutDimension"></span></td>
+                        </tr>
+                        <tr>
+                            <td class ="h5 col-md-1"><strong>ความจุ : </strong></td>
+                            <td class ="h5 col-md-7"><span id = "productVolume"></span> ลิตร</td>
+                        </tr>
+                        <tr>
+                            <td class ="h5 col-md-1"><strong>จำนวนชั้น : </strong></td>
+                            <td class ="h5 col-md-7"><span id = "productNoFloor"></span> ชั้น</td>
+                        </tr>
+                        <tr>
+                            <td class="h4 col-md-8" valign="bottom" colspan = "2" style="height: 35px;"><strong>คุณลักษณะ</strong></td>
+                        </tr>
+                        <tr>
+                            <td class ="h5 col-md-7" colspan = "2">
+                                <ul class = "generalDetail">
+                                    <li>เป็นตู้ควบคุมความชื้นอัตโนมัติ โดยไม่ใช้สารช่วยในการดูดความชื้น</li>
+                                    <li>โครงสร้างภายนอกและภายในทำด้วยโลหะเคลือบสีกันสนิมหนา 1 มม.(1 mm. galvanized steel housing)</li>
+                                    <li>ประตู กรอบตู้ทำด้วยพลาสติกสีดำ บานประตูเป็นกระจกนิรภัยหนา 5 มม. มีมือจับในการเปิดตู้</li>
+                                    <li>ใช้กับไฟฟ้าขนาด 220 โวลต์ 50 เฮิรตซ์</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="col-md-4" id="productImage">
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+                <div class="modal-footer">
+                    <div class="text-right pull-right col-md-3">
+                        <span class="h4 text-muted"><strong> รับประกัน 1 ปี พร้อมดูแลต่อเนื่อง </strong></span></span>
+                    </div>
+
+                    <div class="text-right pull-right col-md-4">
+                        <span class="h4 text-muted"><strong>มาตรฐาน ISO 9001</strong></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
+<section class="footer">
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Here we use the Google Embed API to show Google Maps. -->
+            <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+            <iframe id="map-container" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?q=13.7074182,100.3415268&key=AIzaSyCPIOAxfmMi2byF4RqwcsIHhXjDzasXMDA" >
+            </iframe>
+        </div>
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Copyright Text </p>
+        </div>
+    </footer>
+</section>
 </body>

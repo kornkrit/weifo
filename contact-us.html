@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Product</title>
+    <title>Contact Us</title>
 
     <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
@@ -41,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-xs-4">
-                    <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
+                    <div class="top-number"><p><i class="fa fa-phone-square"></i> +666 249 44693, +669 236 24299</p></div>
                 </div>
                 <div class="col-sm-6 col-xs-8">
                     <div class="social">
@@ -65,7 +65,7 @@
     </div><!--/.top-bar-->
 </header><!--/header-->
 
-<section class="bg-primary" id="first-section">
+<section class="bg-primary" id="first-section" style="margin: 0;">
     <div class="container">
         <div id="header-main" class="container">
             <nav id="header-container" class="navbar navbar-inverse" role="navigation">
@@ -81,8 +81,8 @@
                 <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="product.html">Product</a></li>
-                        <li><a href="contact-us.html">Contact</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li class="active"><a href="contact-us.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -93,20 +93,81 @@
         </div>
     </div>
 </section>
-
-
-<section class="product" id="product">
+<section class="mapFrameContactus">
+    <!-- Here we use the Google Embed API to show Google Maps. -->
+    <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+    <div class="map-wrap">
+        <div class="overlay" onClick="style.pointerEvents='none'"></div><!-- wrap map iframe to turn off mouse scroll and turn it back on on click -->
+    <iframe frameborder="0" class="mapFull"
+            src="https://www.google.com/maps/embed/v1/place?q=13.7074182,100.3415268&key=AIzaSyCPIOAxfmMi2byF4RqwcsIHhXjDzasXMDA" >
+    </iframe>
+    </div>
+</section>
+<section class="infFrameContactus">
     <div class="container">
-        <div class="well well-sm">
-            <strong>Category Title</strong>
-            <div class="btn-group">
-                <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
-            </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
-                    class="glyphicon glyphicon-th"></span>Grid</a>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="well well-sm">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email Address</label>
+                                    <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Subject</label>
+                                    <select id="subject" name="subject" class="form-control" required="required">
+                                        <option value="na" selected="">Choose One:</option>
+                                        <option value="service">General Customer Service</option>
+                                        <option value="suggestions">Suggestions</option>
+                                        <option value="product">Product Support</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                      placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div id="products" class="row list-group">
-
+            <div class="col-md-4">
+                <form>
+                    <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+                    <address>
+                        <strong>Twitter, Inc.</strong><br>
+                        795 Folsom Ave, Suite 600<br>
+                        San Francisco, CA 94107<br>
+                        <abbr title="Phone">
+                            P:</abbr>
+                        (123) 456-7890
+                    </address>
+                    <address>
+                        <strong>Full Name</strong><br>
+                        <a href="mailto:#">first.last@example.com</a>
+                    </address>
+                </form>
+            </div>
         </div>
     </div>
 </section>
@@ -147,11 +208,7 @@
                     </ul>
                 </div>
             </div>
-            <!-- Here we use the Google Embed API to show Google Maps. -->
-            <!-- In order for this to work in your project you will need to generate a unique API key.  -->
-            <iframe id="map-container" frameborder="0" style="border:0"
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyCPIOAxfmMi2byF4RqwcsIHhXjDzasXMDA" >
-            </iframe>
+
         </div>
         <div class="social-networks">
             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
