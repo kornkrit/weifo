@@ -8,11 +8,15 @@ body {
     margin: 0px;
 }
 
-
 /*
  * Custom styles
  */
 /* Default */
+.logo{
+    width: 150px;
+    height: auto;
+}
+
 #header .search{
     display: inline-block;
 }

@@ -3,7 +3,8 @@
  */
 $(window).load(function() {
     var i =0;
-    var images = ['./img/header.jpg','./img/portfolio/fullsize/1.jpg','./img/portfolio/fullsize/2.jpg'];
+    //var images = ['./img/header.jpg','./img/portfolio/fullsize/1.jpg','./img/portfolio/fullsize/2.jpg'];
+    var images = ['./img/header.jpg'];
     var image = $('#first-section');
     //Initial Background image setup
     image.css('background-image', 'url(./img/header.jpg)');
