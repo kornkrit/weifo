@@ -2,10 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2bd63ea-4bc7-4398-b3e3-78ca3aa44277" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elevatezoom-master.zip" afterPath="$PROJECT_DIR$/elevatezoom-master.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers.zip" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slider/bg2.jpg" afterPath="$PROJECT_DIR$/images/slider/bg2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slider/bg3.jpg" afterPath="$PROJECT_DIR$/images/slider/bg3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slider/img2.png" afterPath="$PROJECT_DIR$/images/slider/img2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slider/img3.png" afterPath="$PROJECT_DIR$/images/slider/img3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/header.jpg" afterPath="$PROJECT_DIR$/img/header.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/fullsize/1.jpg" afterPath="$PROJECT_DIR$/img/portfolio/fullsize/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/fullsize/2.jpg" afterPath="$PROJECT_DIR$/img/portfolio/fullsize/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/fullsize/3.jpg" afterPath="$PROJECT_DIR$/img/portfolio/fullsize/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/fullsize/4.jpg" afterPath="$PROJECT_DIR$/img/portfolio/fullsize/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/fullsize/5.jpg" afterPath="$PROJECT_DIR$/img/portfolio/fullsize/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/fullsize/6.jpg" afterPath="$PROJECT_DIR$/img/portfolio/fullsize/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/1.jpg" afterPath="$PROJECT_DIR$/img/portfolio/thumbnails/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/2.jpg" afterPath="$PROJECT_DIR$/img/portfolio/thumbnails/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/3.jpg" afterPath="$PROJECT_DIR$/img/portfolio/thumbnails/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/4.jpg" afterPath="$PROJECT_DIR$/img/portfolio/thumbnails/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/5.jpg" afterPath="$PROJECT_DIR$/img/portfolio/thumbnails/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/thumbnails/6.jpg" afterPath="$PROJECT_DIR$/img/portfolio/thumbnails/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-100.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-120L.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-120L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-125.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-125.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-1360.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-1360.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-1460.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-1460.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-150V3.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-150V3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-160H2.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-160H2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-190L.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-190L.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-200V4.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-200V4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-205.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-205.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-230-2.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-230-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-240H3.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-240H3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-250V5.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-250V5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-300.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-300.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-310GW.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-310GW.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-310W.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-310W.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-320H4.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-320H4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-420.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-420.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-460.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-460.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-500.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-500.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-500V10.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-500V10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-500V5.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-500V5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-520.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-520.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-530.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-530.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-60.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-60.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-610.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-610.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-70.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-70.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-700.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-700.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/products/DRY-720V5.jpg" afterPath="$PROJECT_DIR$/img/products/DRY-720V5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slick-1.6.0.zip" afterPath="$PROJECT_DIR$/slick-1.6.0.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/weifo2.iml" afterPath="$PROJECT_DIR$/.idea/weifo2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-us.html" afterPath="$PROJECT_DIR$/contact-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Footer-with-map.css" afterPath="$PROJECT_DIR$/css/Footer-with-map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-white.html" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-white.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-button-logo.html" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-button-logo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-logo.html" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-logo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-map.html" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-social-icons.html" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/Footer-with-social-icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-white.css" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-white.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-button-logo.css" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-button-logo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-logo.css" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-logo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-map.css" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-social-icons.css" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/Footer-with-social-icons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/demo.css" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/css/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/demo.js" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/assets/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freebie-bootstrap-footers/index.html" afterPath="$PROJECT_DIR$/freebie-bootstrap-footers/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products.json" afterPath="$PROJECT_DIR$/products.json" />
     </list>
     <ignored path="weifo2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +105,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.416667">
-              <caret line="138" column="14" selection-start-line="121" selection-start-column="12" selection-end-line="138" selection-end-column="14" />
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firebase.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/firebase.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0591716">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,7 +135,7 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.666667">
+            <state vertical-scroll-proportion="0.0">
               <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
               <folding />
             </state>
@@ -62,18 +157,18 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.625">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7326733">
-              <caret line="187" column="22" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="22" />
+            <state vertical-scroll-proportion="-32.125">
+              <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -102,6 +197,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/product.html" />
         <option value="$PROJECT_DIR$/contact-us.html" />
+        <option value="$PROJECT_DIR$/firebase.json" />
       </list>
     </option>
   </component>
@@ -140,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,12 +264,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -220,14 +316,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15785764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -236,7 +333,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -257,24 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="152" selection-start-line="91" selection-start-column="152" selection-end-line="91" selection-end-column="152" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -624,25 +702,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.416667">
-          <caret line="138" column="14" selection-start-line="121" selection-start-column="12" selection-end-line="138" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.666667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
           <folding />
         </state>
@@ -660,8 +722,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7326733">
-          <caret line="187" column="22" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="22" />
+        <state vertical-scroll-proportion="-32.125">
+          <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0591716">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
